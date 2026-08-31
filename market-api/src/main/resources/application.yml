@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: market-api
+  cache:
+    type: caffeine
+    cache-names: summary,segments
+    caffeine:
+      spec: expireAfterWrite=60s
+
+# Base URL of the Task 1 model API. Overridable via env for docker-compose.
+model-api:
+  base-url: ${MODEL_API_URL:http://localhost:8000}

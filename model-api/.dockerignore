@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+models/
+housing.db
+.venv/
+.git/
+.gitignore

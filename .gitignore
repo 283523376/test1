@@ -1,0 +1,176 @@
+# ===========================
+# Python (model-api)
+# ===========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================
+# Java (market-api)
+# ===========================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Maven wrapper (保留 wrapper jar 以保持可移植性，但通常不提交)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Next.js / Node.js (portal)
+# ===========================
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn 2 / Plug'n'Play files
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===========================
+# 通用文件 & 系统文件
+# ===========================
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker 相关 (通常不提交大的数据卷)
+*.tar.gz
+*.tar
+*.zip
+
+# 日志文件
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# 项目本地配置 (保留示例文件即可，不提交本地特定配置)
+local.properties
+application-local.properties
+application-dev.properties
+
+# ===========================
+# SQLite / 数据库文件
+# ===========================
+*.db
+*.sqlite3
+*.sqlite
+
+# ===========================
+# 测试和临时文件
+# ===========================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+*.csv
+*.pdf
